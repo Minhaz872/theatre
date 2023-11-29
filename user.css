@@ -1,0 +1,47 @@
+*, *::before, *::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: black;
+  font-family: 'Work Sans', sans-serif;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  background: -webkit-gradient(linear, left top, right top, color-stop(1%, #020024), color-stop(53%, #790938), color-stop(100%, #4a5783), to(#00d4ff));
+  background: linear-gradient(90deg, #020024 1%, #790938 53%, #4a5783 100%, #00d4ff 100%);
+}
+
+body .container {
+  padding-left: 50px;
+}
+
+body .container nav {
+  padding: 20px 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background: -webkit-gradient(linear, left top, right top, color-stop(1%, #020024), color-stop(53%, #790938), color-stop(100%, #4a5783), to(#00d4ff));
+  background: linear-gradient(90deg, #020024 1%, #790938 53%, #4a5783 100%, #00d4ff 100%);
+}
+
+body .container nav a {
+  padding-left: 20px;
+  font-weight: 600;
+}
+
+body .container nav h1 {
+  text-transform: uppercase;
+  color: white;
+}
+/*# sourceMappingURL=user.css.map */

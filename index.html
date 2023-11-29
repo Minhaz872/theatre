@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./frontend/style.css">
+    <link rel="shortcut icon" href="./frontend/images/fav.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300,600&display=swap" rel="stylesheet">
+
+    <title>The Atre</title>
+</head>
+
+<?php
+session_start();
+$conn = mysqli_connect('localhost', 'root', '','theatre');
+?>
+
+<body>
+    <div class="container">
+        <nav>
+            <h1><sup>The</sup>Atre</h1>
+            <ul>
+                <li class="login btn"><a href="login.php">Login</a></li>
+            </ul>
+        </nav>
+        <div class="vid-overlay">
+            <video src="./frontend/images/e.mp4" muted loop autoplay></video>
+            <div class="remaining">
+                <h2>Enjoy movies, Series & Music</h2>
+                <h4>Anytime, Anywhere</h4>
+                <h5 class="btn"><a href="signup.php">Get Started</a></h2>
+            </div>
+        </div> 
+    </div>
+</body>
+</html>
+
