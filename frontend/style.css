@@ -1,0 +1,132 @@
+*, *::before, *::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: black;
+  font-family: 'Work Sans', sans-serif;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.btn {
+  background-color: #ca1e1e;
+  padding: 0.8rem 1.2rem;
+  border: 1px solid red;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  border-radius: 20px;
+  font-size: 15px;
+  font-weight: bold;
+  color: #ffff;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: rgba(230, 117, 117, 0.274);
+  border: 1px solid red;
+  color: white;
+  -webkit-transition: 300ms ease-in-out;
+  transition: 300ms ease-in-out;
+}
+
+body {
+  height: 100vh;
+}
+
+body .container .vid-overlay {
+  margin-top: -148px;
+}
+
+body .container .vid-overlay .remaining {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: absolute;
+  top: 300px;
+  left: 350px;
+}
+
+body .container .vid-overlay .remaining > * {
+  margin-bottom: 20px;
+}
+
+body .container .vid-overlay .remaining h2 {
+  color: white;
+  font-size: 40px;
+}
+
+body .container .vid-overlay .remaining h4 {
+  text-align: center;
+  color: white;
+  font-size: 20px;
+}
+
+body .container .vid-overlay .remaining h5 {
+  cursor: pointer;
+  display: inline;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  -ms-grid-column-align: center;
+      justify-self: center;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  border-radius: 10px;
+  padding: 1rem 3rem;
+}
+
+body .container .vid-overlay video {
+  z-index: -1;
+  width: 100%;
+  overflow: hidden;
+}
+
+body .container nav {
+  z-index: 1;
+  padding-top: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background: -webkit-gradient(linear, left top, left bottom, from(black), to(rgba(0, 0, 0, 0)));
+  background: linear-gradient(black, rgba(0, 0, 0, 0));
+  position: relative;
+  top: 0;
+}
+
+body .container nav h1,
+body .container nav sup {
+  font-family: 'Work Sans', sans-serif;
+  font-style: italic;
+  -webkit-text-stroke: 1px white;
+  color: red;
+  font-weight: 600;
+  font-size: 40px;
+  margin-left: 30px;
+}
+
+body .container nav ul {
+  padding: 1rem 4rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  gap: 2rem;
+}
+
+body .container nav ul li {
+  list-style: none;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,74 @@
+@import "globals";
+@import "buttons";
+
+body{
+    height: 100vh;
+    .container{
+            .vid-overlay{
+                margin-top: -148px;
+                .remaining{
+                    >*{
+                        margin-bottom: 20px;
+                    }
+                    display: flex;
+                    flex-direction: column;
+                    h2{
+                        color: white;
+                        font-size: 40px;
+                    }
+                    h4{
+                        text-align: center;
+                        color: white;
+                        font-size: 20px;
+                    }
+                    h5{
+                        cursor: pointer;
+                        display: inline;
+                        text-transform: uppercase;
+                        letter-spacing: 2px;
+                        justify-self: center;
+                        align-self: center;
+                        border-radius: 10px;
+                        padding: 1rem 3rem;
+                        
+                    }
+                    position: absolute;
+                    top: 300px;
+                    left: 350px;
+                }
+                video{
+                    z-index: -1;
+                    width: 100%;
+                    overflow: hidden;
+                }
+            }
+            nav{
+                z-index: 1;
+                padding-top: 10px;
+                display: flex;
+                justify-content: space-between;
+                background: linear-gradient(rgba(0, 0, 0,1),rgba(0, 0, 0, 0));
+                position: relative;
+                top: 0;
+                h1,
+                sup{
+                    font-family: 'Work Sans', sans-serif;
+                    font-style: italic;
+                    -webkit-text-stroke: 1px white;
+                    color: red;
+                    font-weight: 600;
+                    font-size: 40px; 
+                    margin-left: 30px;
+                }
+                ul{
+                    padding: 1rem 4rem;
+                    display: flex;
+                    justify-content: flex-end;
+                    gap: 2rem;
+                    li{
+                        list-style: none;
+                    }
+                }
+            }
+        }
+    }

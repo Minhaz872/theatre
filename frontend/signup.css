@@ -1,0 +1,108 @@
+*, *::before, *::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: black;
+  font-family: 'Work Sans', sans-serif;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+body .container {
+  height: 100vh;
+  background-image: url(./images/banner.jpg);
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body .container .login-card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 520px;
+  width: 450px;
+  font-family: 'Work Sans', sans-serif;
+  border-radius: 8px;
+  -webkit-backdrop-filter: blur(11px);
+          backdrop-filter: blur(11px);
+  background-color: rgba(255, 255, 255, 0.233);
+  -webkit-box-shadow: 0 1px 12px rgba(0, 0, 0, 0.25);
+          box-shadow: 0 1px 12px rgba(0, 0, 0, 0.25);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+body .container .login-card h3 {
+  font-weight: 600;
+  color: white;
+  padding-bottom: 40px;
+}
+
+body .container .login-card form {
+  margin-bottom: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+body .container .login-card form > * {
+  margin-top: 10px;
+  color: black;
+}
+
+body .container .login-card form label {
+  color: white;
+}
+
+body .container .login-card form input {
+  border-radius: 20px;
+  width: 250px;
+  height: 25px;
+}
+
+body .container .login-card form .btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: black;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 70px;
+  width: 70px;
+  padding: 1rem 3rem;
+  margin-top: 20px;
+}
+/*# sourceMappingURL=signup.css.map */

@@ -1,0 +1,61 @@
+@import "globals";
+
+body{
+    .container{
+        height: 100vh;
+        background-image: url(./images/banner.jpg);
+        background-size: cover;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .login-card{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            align-items: left;
+            height: 420px;
+            width: 400px;
+            font-family: 'Work Sans', sans-serif;
+            border-radius: 8px;
+            backdrop-filter: blur(11px);
+            background-color: rgba(255, 255, 255, 0.233);
+            box-shadow: 0 1px 12px rgba(0,0,0,0.25);
+            border: 1px solid rgba(255,255,255,0.3);
+            h3{
+                font-weight: 600;
+                color: white;
+                padding-bottom: 40px;
+            }
+            form{
+                >*{
+                    color: white;
+                    margin-top: 10px;
+                }
+                margin-bottom: 30px;
+                display: flex;
+                flex-direction: column;
+                label{
+                    color: white;
+                }
+                input{
+                    border-radius: 20px;
+                    color: black;
+                    width: 250px;
+                    height: 25px;
+                }
+                .btn{
+                    display: flex;
+                    color: black;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    margin-left: 70px;
+                    width: 70px;
+                    padding: 1rem 3rem;
+                    margin-top: 20px;
+                }
+            }
+        }
+    }
+}
